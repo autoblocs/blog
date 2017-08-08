@@ -235,7 +235,7 @@ pt-BR:
   menu_label                 :
   toc_label                  : "Nesta página"
   ext_link_label             : "Link direto"
-  less_than                  : "meno que"
+  less_than                  : "menos que"
   minute_read                : "minutos de leitura"
   share_on_label             : "Compartilhe em"
   meta_label                 :
@@ -263,7 +263,7 @@ pt-BR:
   comment_btn_submitted      :
   comment_success_msg        :
   comment_error_msg          :
-  loading_label              :
+  loading_label              : "Carregando ..."
 pt-PT:
   <<: *DEFAULT_PT
 
