@@ -16,7 +16,7 @@ Mais de 5.7 milhões de consultas são realizadas no [TabNET](http://www2.datasu
 
 ## Número de consultas
 
-Os dados de consulta ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) não são publicados com frequ6encia e estão desatualizados desde Maio/2016. Obtivemos no site do 15o. Congresso Nacional de Auditoria em Saúde e Qualidade da Gestão e da Assistência Hospitalar ([AUDHOSP](http://www.audhosp.com.br/)) uma apresentação da Divisão de Disseminação de Informações em Saúde que apresentou os dados totais de consultas ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) de Janeiro a Julho de 2016 com um total de [3.363.412 tabulações](/assets/pdf/20160915-FEHOSP-DATASUS.pdf). Extrapolando esse número para o ano todo chegamos ao total de **5.765.849** tabulações no ano.
+Os dados de consulta ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) não são publicados com frequ6encia e estão desatualizados desde Maio/2016. Obtivemos no site do 15o. Congresso Nacional de Auditoria em Saúde e Qualidade da Gestão e da Assistência Hospitalar ([AUDHOSP](http://www.audhosp.com.br/)) uma apresentação da Divisão de Disseminação de Informações em Saúde que apresentou os dados totais de consultas ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) de Janeiro a Julho de 2016 com um total de [3.363.412 tabulações](/blog/assets/pdf/20160915-FEHOSP-DATASUS.pdf). Extrapolando esse número para o ano todo chegamos ao total de **5.765.849** tabulações no ano.
 
 ## Custo do funcionário por hora
 
