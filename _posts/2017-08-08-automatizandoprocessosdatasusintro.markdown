@@ -52,4 +52,4 @@ O custo total anual é o produto do **número de tabulações** por ano pelo **t
 2. Tempo (horas) gasto por tabulação: **6**;
 3. Valor hora do trabalho: **R$ 25,84**.
 
-Chegamos ao custo estimado ao ano de **R$ 893.946.838,71**.
+Assim, estimamos que o custo anual pelo sistema vigente é de **R$ 893.946.838,71**.
