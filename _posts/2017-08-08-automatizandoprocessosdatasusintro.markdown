@@ -1,6 +1,6 @@
 ---
-title: "Automatizando processos do DATASUS - Introdução"
-excerpt: "Estimativa do custo anual das tabulações executadas no **TabNET**"
+title: "Automatizando processos do DATASUS"
+excerpt: "Estimativa do custo anual das análise executadas no **TabNET**"
 date: "2017-08-08 10:36:29 -0400"
 category:
   - Saude Publica
@@ -16,19 +16,26 @@ Mais de 5.7 milhões de consultas são realizadas no [TabNET](http://www2.datasu
 
 ## Número de consultas
 
-Os dados de consulta ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) não são publicados com frequência e estão desatualizados desde Maio/2016. Obtivemos no site do 15o. Congresso Nacional de Auditoria em Saúde e Qualidade da Gestão e da Assistência Hospitalar ([AUDHOSP](http://www.audhosp.com.br/)) uma apresentação da Divisão de Disseminação de Informações em Saúde que apresentou os dados totais de consultas ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) de Janeiro a Julho de 2016 com um total de [3.363.412 tabulações](/blog/assets/pdf/20160915-FEHOSP-DATASUS.pdf). Extrapolando esse número para o ano todo chegamos ao total de **5.765.849** tabulações no ano.
+Os dados de consulta ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) não são publicados com frequência e estão desatualizados desde Maio/2016. Obtivemos no site do 15o. Congresso Nacional de Auditoria em Saúde e Qualidade da Gestão e da Assistência Hospitalar ([AUDHOSP](http://www.audhosp.com.br/)) uma apresentação da Divisão de Disseminação de Informações em Saúde que apresentou os dados totais de consultas ao [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) de Janeiro a Julho de 2016 com um total de [3.363.412 tabulações](/blog/assets/pdf/20160915-FEHOSP-DATASUS.pdf). Extrapolando esse número para o ano todo chegamos ao total de **5.765.849** tabulações no ano de 2016.
 
 ## Custo do funcionário por hora
 
-Assumindo que a maioria das consultas é realizada por funcionários públicos nas esferas federal, estadual e municipal, tomamos o salário médio mensal de [R$ 3.721,00](https://sidra.ibge.gov.br/tabela/5433#resultado) obtidos pela estimativa da [PNAD](http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/) no site do [IBGE](http://www.ibge.gov.br/home/). Observe que o valor publicado pela pesquisa do [IBGE](http://www.ibge.gov.br/home/) não se refere ao custo do funcionário, mas ao **valor bruto mensal** recebido pelo indivíduo. Para facilitar as contas, iremos assumir um valor fixo igual a **1.333** referentes a férias, gratificação de Natal (equivalente ao 13o. salário), etc.:
+Assumindo que a maioria das consultas é realizada por funcionários públicos nas esferas federal, estadual e municipal, tomamos o salário médio **mensal** de [R$ 3.721,00](https://sidra.ibge.gov.br/tabela/5433#resultado) obtidos pela estimativa da [PNAD](http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/) no site do [IBGE](http://www.ibge.gov.br/home/). Observe que o valor publicado pela pesquisa do [IBGE](http://www.ibge.gov.br/home/) não se refere ao custo do funcionário, mas ao **valor bruto mensal** recebido.
 
-1. Custo mensal do servidor público : **R$ 4.961,33**;
+Para calcular o custo mensal do funcionário, adicionamos a provisão mensal dos valores pagos anualmente a título de férias, gratificação de Natal, etc. Esses valores são calculados como:
+
+1. Férias: 1/12 do salário mensal
+2. Gratificação de Natal (equivalente ao 13&ordm; salário): 1/12 do salário mensal
+
+De modo que chegamos ao fator de ajuste do salário mensal igual a **1,16667**. Devemos multiplicar esse fator ao salário médio [R$ 3.721,00](https://sidra.ibge.gov.br/tabela/5433#resultado) oriundo da pesquisa da [PNAD](http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/). Para calcuar o custo por hora temos que dividir o custo total médio mensal pelo número de horas trabalhadas:
+
+1. Custo mensal total médio do servidor público: **R$ 4.341.17**;
 2. Número de horas trabalhadas no mês:  **168**;
-3. Custo total médio por hora: **R$ 29,53**.
+3. Custo total médio por hora: **R$ 25,84**.
 
-## Total de horas gasto por tabulação
+## Total de horas gasto por análise
 
-Nossas estimativas internas são de que o tempo total de análise gasto para completar uma única tabulação é em média **5.5** horas. Esse processo compreende:
+Estimamos que o tempo total gasto para completar uma análise a partir de uma tabulação é de **6** horas. Esse trabalho é feito manualmente, todos os meses, em todas secretarias de saúde do Brasil. O processo tem os seguintes passos:
 
 1. Ir no site do TabNET;
 2. Escolher os parâmetros;
@@ -37,14 +44,14 @@ Nossas estimativas internas são de que o tempo total de análise gasto para com
 5. Executar a análise;
 6. Gerar os relatórios.
 
-## Custo anual das tabulações executados no TabNET
+## Custo anual das análises executados no TabNET
 
 O custo total anual é o produto do **número de tabulações** por ano pelo **tempo (horas)** gasto por tabulação pelo **valor hora** do trabalho:
 
 1. Número de tabulações por ano: **5.765.849**;
-2. Tempo (horas) gasto por tabulação: **5.5**;
-3. Valor hora do trabalho: **R$ 29,53**.
+2. Tempo (horas) gasto por tabulação: **6**;
+3. Valor hora do trabalho: **R$ 25,84**.
 
-Chegamos ao custo estimado ao ano de **R$ 936.515.735,79**.
+Chegamos ao custo estimado ao ano de **R$ 893.946.838,71**.
 
 ## Análise
