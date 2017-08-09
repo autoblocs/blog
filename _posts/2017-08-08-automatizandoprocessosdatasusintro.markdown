@@ -35,7 +35,7 @@ De modo que chegamos ao fator de ajuste do salário mensal igual a **1,17**. Dev
 
 ## Total de horas gasto por análise
 
-Estimamos que o tempo total gasto para completar uma análise a partir de uma tabulação é de **6** horas. Esse trabalho é feito manualmente, todos os meses, em todas secretarias de saúde do Brasil. O processo tem os seguintes passos:
+Estimamos que o tempo total gasto para completar uma análise por tabulação é de aproximadamente **6** horas. Esse trabalho é feito manualmente, todos os meses, em todas secretarias de saúde do Brasil. O processo tem os seguintes passos:
 
 1. Ir no site do TabNET;
 2. Escolher os parâmetros;
