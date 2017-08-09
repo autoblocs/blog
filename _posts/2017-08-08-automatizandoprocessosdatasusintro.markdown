@@ -1,5 +1,5 @@
 ---
-title: "Automatizando processos do DATASUS"
+title: "Automatizando os processos do DATASUS - I"
 excerpt: "Estimativa do custo anual das análise executadas no **TabNET**"
 date: "2017-08-08 10:36:29 -0400"
 category:
@@ -27,9 +27,9 @@ Para calcular o custo mensal do funcionário, adicionamos a provisão mensal dos
 1. Férias: 1/12 do salário mensal
 2. Gratificação de Natal (equivalente ao 13&ordm; salário): 1/12 do salário mensal
 
-De modo que chegamos ao fator de ajuste do salário mensal igual a **1,16667**. Devemos multiplicar esse fator ao salário médio [R$ 3.721,00](https://sidra.ibge.gov.br/tabela/5433#resultado) oriundo da pesquisa da [PNAD](http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/). Para calcuar o custo por hora temos que dividir o custo total médio mensal pelo número de horas trabalhadas:
+De modo que chegamos ao fator de ajuste do salário mensal igual a **1,17**. Devemos multiplicar esse fator ao salário médio [R$ 3.721,00](https://sidra.ibge.gov.br/tabela/5433#resultado) oriundo da pesquisa da [PNAD](http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/). Para calcuar o custo por hora temos que dividir o custo total médio mensal pelo número de horas trabalhadas:
 
-1. Custo mensal total médio do servidor público: **R$ 4.341.17**;
+1. Custo mensal total médio do servidor público: **R$ 4.341,17**;
 2. Número de horas trabalhadas no mês:  **168**;
 3. Custo total médio por hora: **R$ 25,84**.
 
@@ -53,5 +53,3 @@ O custo total anual é o produto do **número de tabulações** por ano pelo **t
 3. Valor hora do trabalho: **R$ 25,84**.
 
 Chegamos ao custo estimado ao ano de **R$ 893.946.838,71**.
-
-## Análise
