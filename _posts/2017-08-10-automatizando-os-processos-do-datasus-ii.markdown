@@ -3,7 +3,7 @@ title: Automatizando os processos do DATASUS - II
 excerpt: Automatizando o download pelo **TabNET**
 date: '2017-08-10 16:24'
 header:
-  teaser: <http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg>
+  teaser: "http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
 category:
   - Saude Publica
 tags:
