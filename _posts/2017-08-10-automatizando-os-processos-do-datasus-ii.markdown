@@ -1,6 +1,6 @@
 ---
 title: Automatizando os processos do DATASUS - II
-excerpt: Automatizando o download no **TabNET**
+excerpt: Automatizando o download pelo **TabNET**
 date: '2017-08-10 16:24'
 category:
   - Saude Publica
