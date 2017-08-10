@@ -24,32 +24,32 @@ Assumindo que a maioria das consultas é realizada por funcionários públicos n
 
 Para calcular o custo mensal do funcionário, adicionamos a provisão mensal dos valores pagos anualmente a título de férias, gratificação de Natal, etc. Esses valores são calculados como:
 
-1. Férias: 1/12 do salário mensal
-2. Gratificação de Natal (equivalente ao 13&ordm; salário): 1/12 do salário mensal
+1.  Férias: 1/12 do salário mensal
+2.  Gratificação de Natal (equivalente ao 13&ordm; salário): 1/12 do salário mensal
 
 De modo que chegamos ao fator de ajuste do salário mensal igual a **1,17**. Devemos multiplicar esse fator ao salário médio [R$ 3.721,00](https://sidra.ibge.gov.br/tabela/5433#resultado) oriundo da pesquisa da [PNAD](http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/). Para calcular o custo do funcionário por hora temos que dividir o custo total médio mensal pelo número de horas trabalhadas:
 
-1. Custo mensal total médio do servidor público: **R$ 4.341,17**;
-2. Número de horas trabalhadas no mês:  **168**;
-3. Custo total médio por hora: **R$ 25,84**.
+1.  Custo mensal total médio do servidor público: **R$ 4.341,17**;
+2.  Número de horas trabalhadas no mês:  **168**;
+3.  Custo total médio por hora: **R$ 25,84**.
 
 ## Total de horas gasto por análise
 
 Estimamos que o tempo total gasto para completar uma análise por tabulação é de aproximadamente **6** horas. Esse trabalho é feito manualmente, todos os meses, em todas secretarias de saúde do Brasil. O processo tem os seguintes passos:
 
-1. Ir no site do TabNET;
-2. Escolher os parâmetros;
-3. Fazer o download;
-4. Organizar os dados;
-5. Executar a análise;
-6. Gerar os relatórios.
+1.  Ir no site do TabNET;
+2.  Escolher os parâmetros;
+3.  Fazer o download;
+4.  Organizar os dados;
+5.  Executar a análise;
+6.  Gerar os relatórios.
 
 ## Custo anual das análises executados no TabNET
 
 O custo total anual é o produto do **número de tabulações** por ano pelo **tempo (horas)** gasto por tabulação pelo **valor hora** do trabalho:
 
-1. Número de tabulações por ano: **5.765.849**;
-2. Tempo (horas) gasto por tabulação: **6**;
-3. Valor hora do trabalho: **R$ 25,84**.
+1.  Número de tabulações por ano: **5.765.849**;
+2.  Tempo (horas) gasto por tabulação: **6**;
+3.  Valor hora do trabalho: **R$ 25,84**.
 
 Assim, estimamos que o custo anual pelo sistema vigente é de **R$ 893.946.838,71**.
