@@ -2,6 +2,8 @@
 title: Automatizando os processos do DATASUS - II
 excerpt: Automatizando o download pelo **TabNET**
 date: '2017-08-10 16:24'
+header:
+  teaser: <http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg>
 category:
   - Saude Publica
 tags:
@@ -9,8 +11,6 @@ tags:
   - DATASUS
   - Big Data
 ---
-
-## Introdução
 
 No post anterior estimamos que o custo anual do processo de análise utilizando o [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02) seria próximo de **900 milhões de reais**. Apresentaremos o sistema de gerenciamento de dados de saúde pública da [Autoblocs](http://autoblocs.com) que diminui o tempo gasto para a execução desse processo em até 10x.
 
