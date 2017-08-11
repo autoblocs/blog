@@ -2,6 +2,8 @@
 title: "Automatizando os processos do DATASUS - I"
 excerpt: "Estimativa do custo anual das análise executadas no **TabNET**"
 date: "2017-08-08 10:36:29 -0400"
+header:
+  teaser: /assets/images/pexels-photo-325229.jpeg
 category:
   - Saude Publica
 tags:
