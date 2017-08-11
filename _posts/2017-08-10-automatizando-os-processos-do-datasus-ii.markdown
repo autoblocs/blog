@@ -19,7 +19,7 @@ No post anterior estimamos que o custo anual do processo de análise utilizando 
 Os princípios aplicados podem ser agrupados em 4 grupos:
 
 1.  Disponibilidade: utilizar tecnologias modernas da Web;
-2.  Utilização: interface próxima às interfaces do TabNET e do TabWIN;
+2.  Usabilidade: interface próxima às interfaces do TabNET e do TabWIN;
 3.  Qualidade: disponibilizar as informações com rapidez e precisão;
 4.  Automação: automatizar o máximo possível para economizar o tempo do usuário.
 
@@ -31,7 +31,7 @@ O aplicativo de gestão de dados de saúde pública pode ser utilizado pelos bro
 2.  Tablets: Android ou iOS;
 3.  Smartphones: Android ou iOS.
 
-## Utilização
+## Usabilidade
 
 Utilizamos a mesma nomenclatura de campos definida pelo DATASUS. A utilização da mesma nomenclatura permite que o usuário não tenha dificuldade em migrar de sistemas:
 
