@@ -1,6 +1,6 @@
 ---
-title: "Automatizando os processos do DATASUS - I"
-excerpt: "Estimativa do custo anual das análise executadas no **TabNET**"
+title: Automatizando os processos do DATASUS - Parte I
+excerpt: Estimativa do custo anual das análise executadas no [TabNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02)
 date: "2017-08-08 10:36:29 -0400"
 header:
   teaser: /assets/images/pexels-photo-325229.jpeg

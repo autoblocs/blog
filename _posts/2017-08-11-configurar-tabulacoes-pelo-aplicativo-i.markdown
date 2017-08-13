@@ -1,6 +1,6 @@
 ---
-title: "Configurar tabulações pelo aplicativo - I"
-excerpt: Automatizando o download pelo **TabNET**
+title: Configurar tabulações no aplicativo [Autoblocs Saúde](http://app.autoblocs.com) - Parte I
+excerpt: Exemplos de tabulações para o sistema [SIH/SUS](http://sihd.datasus.gov.br/principal/index.php) na cidade de Campinas (SP) - Junho/2016.
 date: "2017-08-11 17:08"
 header:
   teaser: /assets/images/pexels-photo-256517.jpeg

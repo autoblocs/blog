@@ -1,6 +1,6 @@
 ---
-title: Automatizando os processos do DATASUS - II
-excerpt: Automatizando o download pelo **TabNET**
+title: Automatizando os processos do DATASUS - Parte II
+excerpt: Princípios do aplicativo Autoblocs Saúde.
 date: '2017-08-10 16:24'
 header:
   teaser: /assets/images/pexels-photo-325229.jpeg
